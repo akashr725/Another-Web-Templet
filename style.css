@@ -1,0 +1,144 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&family=Marck+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.background{
+
+    background: rgb(0, 0, 0, 0.5) url('./images.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.logo{
+
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.navlist{
+    width: 50%;
+    /* background-color: rgb(19, 18, 18); */
+    display: flex;
+    align-items: center;
+}
+.navlist li {
+    list-style: none;
+    padding: 20px 25px;
+
+}
+.navlist li a {
+text-decoration: none;
+color: white;
+
+}
+.navlist li a:hover {
+    color: darkgreen;
+}
+.rightnav{
+    /* background-color: forestgreen; */
+    width: 50%;
+    text-align: right;
+}
+#search{
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 13px;
+    font-size: 15px;
+}
+
+.first{
+    height: 100vh;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 50%;
+    margin: 0 auto;
+    height: 80%;
+}
+.leftbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-direction: column;
+}
+.rightbox{
+    width: 30%;
+}
+.rightbox img {
+
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+}
+.text-big{
+    font-size: 30px;
+
+}
+.text-small{
+    font-size: 20px;
+}
+.btns{
+    padding: 10px 5px;
+    margin: 15px 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    background: none;
+}
+.btns a{
+    text-decoration: none;
+    color:white;
+}
+.btns:hover{
+    background-color: rgb(42, 6, 247);
+    transition: 0.5s;
+}
+.btn-sm{
+    padding: 6px 7px;
+    vertical-align: middle;
+    margin-right: 9px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 350px;
+    max-width:80%;
+    margin: 0 auto;
+    font-family: 'Abhaya Libre', serif;
+    font-family: 'Marck Script', cursive;
+}
+.main0{
+    padding: 0px 65px;
+    /* font-family: 'Abhaya Libre', serif; */
+}
+.sec{
+    flex-direction: row-reverse;
+}
+
